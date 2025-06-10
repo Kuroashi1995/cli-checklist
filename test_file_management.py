@@ -1,5 +1,5 @@
 from unittest import TestCase
-from file_management import get_todo_list
+from file_management import get_todo_list, save_todo_list
 from todo import Todo
 
 import os
@@ -23,4 +23,8 @@ class TestFileManagement(TestCase):
         self.assertEqual(todos, [])
         os.remove("./example.txt")
 
-
+    def test_save_file(self):
+        save_todo_list([Todo(1, "Testing")], "./example.txt")
+        check = os.path.isfile("./example.txt")
+        self.assertEqual(check, True)
+        os.remove("./example.txt")
