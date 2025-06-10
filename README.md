@@ -17,3 +17,8 @@ It's meant to be simple, fleeting and useful.
 - [ ] Give random sidequest function
 - [ ] Add your own sidequests function
 - [ ] Preferences persistance
+
+## Usage
+1. [Install Python](https://www.python.org/downloads/)
+2. Install requirements with `pip install -r requirements.txt`.
+3. Run with `python3 main.py`
