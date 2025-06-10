@@ -45,5 +45,6 @@ def main():
             save_todo_list(todo_list)
         except ValueError:
             continue
-
+        except KeyboardInterrupt:
+            return 1
 main()
