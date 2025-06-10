@@ -15,15 +15,19 @@ def main():
                 match(int(selection)):
                     case 1:
                         text = input("Todo: > ")
-                        priority = input("Priority (default 3): > ")
-                        if priority == "":
+                        priority = int(input("Priority 1-3 (default 3): > "))
+                        if priority > 3 or priority < 0:
                             priority = 3
-                        todo_list.append(Todo(int(priority), text))
+                        todo_list.append(Todo(priority, text))
                     case 2:
-                        index = input("Todo number: > ")
-                        todo_list[int(index) - 1].completed = True
+                        index = int(input("Todo number: > "))
+                        if index > len(todo_list):
+                            continue
+                        todo_list[index - 1].completed = True
                     case 3:
-                        index = input("Todo number: > ")
+                        index = int(input("Todo number: > "))
+                        if index > len(todo_list):
+                            continue
                         del todo_list[int(index) - 1]
                     case 4:
                         todo_list = []
