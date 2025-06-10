@@ -9,7 +9,7 @@ It's meant to be simple, fleeting and useful.
 - Clear all tasks
 - Clear completed tasks
 
-uture Implementations:
+## Future Implementations:
 - [x] Shows todo list in the terminal
 - [x] Add, complete, delete todo from list
 - [x] Clear all tasks
