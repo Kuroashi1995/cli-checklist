@@ -1,7 +1,6 @@
 from todo import Todo
 
 import os
-import time
 
 
 def get_todo_list(path: str = "./todos.txt") -> list[Todo]:
