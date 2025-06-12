@@ -19,7 +19,7 @@ def print_todo_list(todo_list: list[Todo]) -> None:
                     print(colored(f"[ ] {index + 1}. {todo_list[index].text}", color="yellow"))
 
 def print_completed(todo: Todo) -> None:
-    print(colored(f"[X] - {todo.text}", color="dark_grey", attrs=["strike"]))
+    print(colored(f"[X] -- {todo.text}", color="dark_grey", attrs=["strike"]))
 
 def print_title(title: str) -> None:
     print(colored(title, color="light_grey", attrs=["bold", "underline"]))
