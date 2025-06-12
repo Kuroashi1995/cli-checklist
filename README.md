@@ -10,13 +10,10 @@ It's meant to be simple, fleeting and useful.
 - Clear completed tasks
 
 ## Future Implementations:
-- [x] Shows todo list in the terminal
-- [x] Add, complete, delete todo from list
-- [x] Clear all tasks
-- [x] Clear completed tasks
 - [ ] Give random sidequest function
 - [ ] Add your own sidequests function
 - [ ] Preferences persistance
+- [ ] Temporal text highlighting to quickfind words in todos
 
 ## Usage
 1. [Install Python](https://www.python.org/downloads/)
