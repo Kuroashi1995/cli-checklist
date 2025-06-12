@@ -14,6 +14,7 @@ It's meant to be simple, fleeting and useful.
 - [ ] Add your own sidequests function
 - [ ] Preferences persistance
 - [ ] Temporal text highlighting to quickfind words in todos
+- [ ] Edit todo functionality
 
 ## Usage
 1. [Install Python](https://www.python.org/downloads/)
