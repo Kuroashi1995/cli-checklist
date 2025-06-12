@@ -8,13 +8,14 @@ It's meant to be simple, fleeting and useful.
 - Add, complete, delete todo from list
 - Clear all tasks
 - Clear completed tasks
+- Edit todo functionality
 
 ## Future Implementations:
 - [ ] Give random sidequest function
 - [ ] Add your own sidequests function
 - [ ] Preferences persistance
 - [ ] Temporal text highlighting to quickfind words in todos
-- [ ] Edit todo functionality
+- [x] Edit todo functionality
 
 ## Usage
 1. [Install Python](https://www.python.org/downloads/)
